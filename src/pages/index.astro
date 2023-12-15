@@ -12,7 +12,6 @@ const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection('blog'))
   .sort((a:CollectionEntry<'blog'>, b:CollectionEntry<'blog'>) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const mostRecentArticle: CollectionEntry<'blog'> = allBlogArticles[0];
-console.log(mostRecentArticle);
 
 const otherArticles: CollectionEntry<'blog'>[] = allBlogArticles.slice(1);
 ---
