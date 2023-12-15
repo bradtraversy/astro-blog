@@ -1,6 +1,7 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
+import SearchForm from "../../components/SearchForm.astro";
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from "astro:content";
 
@@ -10,6 +11,11 @@ const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection('blog'))
 
 <MainLayout>
 <h1 class="text-2xl pb-3">All Articles</h1>
+
+<SearchForm />
+
+  <br>
+  
 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
   {allBlogArticles.map(article => (
     <ArticleCard article={article} />
