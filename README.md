@@ -2,6 +2,8 @@
 
 A tech blog built with Astro collections, Makdown & TypeScript.
 
+<img src="/public/images/screen.png" />
+
 This project is from the [Astro Quick Start Course](https://traversymedia.com/astro-quick-start)
 
 The HTML files are available in the `blog-theme` folder. There is no CSS as we use all Tailwind classes.
