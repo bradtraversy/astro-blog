@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.js"
+      integrity="sha512-BJ/5sR2hFxQTKin/55JQCcMTObShDBAmVjL/3NR/MVcrhyOazJjAgvROem03+HYyGw16SVdSfoWCFGr9syxAKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Tech People Blog</title>
+  </head>
+  <body>
+    <nav class="bg-gray-900 text-white">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="images/logo.png" class="h-14" alt="TechPeople Logo" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap"
+            ><span class="text-indigo-400">Tech</span>People</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 text-white rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 border-gray-700"
+          >
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="articles.html"
+                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
+                >All Articles</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container mx-auto max-w-screen-xl mt-10 px-8">
+      <h1 class="text-4xl font-bold mb-5"> About TechPeople</h1>
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="w-full md:w-1/2 mb-8 md:mb-0">
+            <img src="images/about.jpg" alt="Tech People Team" class="w-full h-auto rounded-lg shadow-lg"/>
+        </div>
+        <div class="w-full md:w-1/2">
+            <h2 class="text-3xl font-extrabold text-gray-900 mb-4">
+                Who We Are
+            </h2>
+            <p class="text-gray-700 leading-relaxed mb-6">
+                We are Tech People, a passionate team of tech enthusiasts dedicated to bringing you the latest news, articles, and tutorials on all things technology.
+            </p>
+            <p class="text-gray-700 leading-relaxed mb-6">
+                Our mission is to empower and educate our readers, helping them stay up-to-date with the rapidly evolving world of technology. Whether you're a seasoned developer, a gadget enthusiast, or just curious about the latest tech trends, we've got you covered.
+            </p>
+           
+        </div>
+    </div>
+    
+    <!-- Team -->
+    <div class="mt-10">
+      <h2 class="text-3xl font-extrabold text-gray-900 mb-8">
+        Our Team
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="images/team1.png" alt="Team Member 1" class="w-full h-auto"/>
+            <div class="p-6">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">John Doe</h3>
+                <p class="text-gray-70">Founder & Editor-in-Chief</p>
+            </div>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="images/team2.png" alt="Team Member 2" class="w-full h-auto"/>
+            <div class="p-6">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Paul Newman</h3>
+                <p class="text-gray-70">Lead Writer</p>
+            </div>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="images/team3.png" alt="Team Member 3" class="w-full h-auto"/>
+            <div class="p-6">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Johanna Johnson</h3>
+                <p class="text-gray-70">Tech Analyst</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <footer class="bg-indigo-900 text-white">
+      <div class="container mx-auto mt-10 max-w-screen-xl px-8">
+        <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">About</h3>
+            <p class="text-white text-sm">
+              TechPeople is a blog for tech enthusiasts. We publish articles,
+              stories and tutorials about the latest technology trends and
+              advancements.
+            </p>
+          </div>
+          <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">Categories</h3>
+            <ul class="text-white text-sm">
+              <li class="mb-2">
+                <a href="#">Tech</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Programming</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Gadgets</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Hardware</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Software</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">VR</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Smartphones</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Cameras</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Drones</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">Contact</h3>
+            <ul class="text-white text-sm">
+              <li class="mb-2">
+                <a href="#">Email</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Twitter</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Facebook</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Instagram</a>
+              </li>
+            </ul>
+    </footer>
+  </body>
+</html>

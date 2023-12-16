@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.js"
+      integrity="sha512-BJ/5sR2hFxQTKin/55JQCcMTObShDBAmVjL/3NR/MVcrhyOazJjAgvROem03+HYyGw16SVdSfoWCFGr9syxAKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Tech People Blog</title>
+  </head>
+  <body class="">
+    <nav class="bg-gray-900 text-white">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="images/logo.png" class="h-14" alt="TechPeople Logo" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap"
+            ><span class="text-indigo-400">Tech</span>People</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 text-white rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 border-gray-700"
+          >
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="articles.html"
+                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
+                >All Articles</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container mx-auto max-w-screen-xl mt-10 px-8">
+      <h1 class="text-2xl pb-3">All Articles</h1>
+      <!-- Main Grid -->
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Article Card -->
+        <div class="max-w-md mx-auto mt-10">
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="article.html">
+              <img
+                src="images/image1.png"
+                alt="Article Image"
+                class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
+              />
+            </a>
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-2">
+                <a href="article.html"> The Best Laptops For Developers In 2024 </a>
+              </h2>
+              <p class="text-gray-600 text-sm mb-4">January 20, 2024</p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                class="px-2 py-1 bg-blue-500 text-white rounded-full text-xs hover:opacity-90"
+                ><a href="">Tech</a></span
+              >
+              <span
+                class="px-2 py-1 bg-purple-500 text-white rounded-full text-xs hover:opacity-90"
+                ><a href="#">Hardware</a></span
+              >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Article Card -->
+        <div class="max-w-md mx-auto mt-10">
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="article.html">
+              <img
+                src="images/image2.png"
+                alt="Article Image"
+                class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
+              />
+            </a>
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-2">
+                <a href="article.html"> Guardian of the Digital Realm: Web Security </a>
+              </h2>
+              <p class="text-gray-600 text-sm mb-4">January 19, 2024</p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                class="px-2 py-1 bg-blue-500 text-white rounded-full text-xs hover:opacity-90"
+                ><a href="">Code</a></span
+              >
+              <span
+                class="px-2 py-1 bg-purple-500 text-white rounded-full text-xs hover:opacity-90"
+                ><a href="#">Programming</a></span
+              >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Article Card -->
+        <div class="max-w-md mx-auto mt-10">
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="article.html">
+              <img
+                src="images/image3.png"
+                alt="Article Image"
+                class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
+              />
+            </a>
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-2">
+                <a href="article.html"> Immerse in the Virtual World: VR Development </a>
+              </h2>
+              <p class="text-gray-600 text-sm mb-4">January 18, 2024</p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                class="px-2 py-1 bg-blue-500 text-white rounded-full text-xs hover:opacity-90"
+                ><a href="">VR</a></span
+              >
+              <span
+                class="px-2 py-1 bg-purple-500 text-white rounded-full text-xs hover:opacity-90"
+                ><a href="#">Tech</a></span
+              >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Article Card -->
+        <div class="max-w-md mx-auto mt-10">
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="article.html">
+              <img
+                src="images/image4.png"
+                alt="Article Image"
+                class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
+              />
+            </a>
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-2">
+                <a href="article.html"> Elevate Your Mobile Experience with Samsung </a>
+              </h2>
+              <p class="text-gray-600 text-sm mb-4">January 17, 2024</p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                class="px-2 py-1 bg-blue-500 text-white rounded-full text-xs hover:opacity-90"
+                ><a href="">Smartphones</a></span
+              >
+              <span
+                class="px-2 py-1 bg-purple-500 text-white rounded-full text-xs hover:opacity-90"
+                ><a href="#">Samsung</a></span
+              >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Article Card -->
+        <div class="max-w-md mx-auto mt-10">
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="article.html">
+              <img
+                src="images/image5.png"
+                alt="Article Image"
+                class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
+              />
+            </a>
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-2">
+                <a href="article.html"> Soaring to New Heights: The World of Drones</a>
+              </h2>
+              <p class="text-gray-600 text-sm mb-4">January 16, 2024</p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-2 py-1 bg-blue-500 text-white rounded-full text-xs hover:opacity-90"
+                  ><a href="">Drones</a></span
+                >
+                <span
+                  class="px-2 py-1 bg-purple-500 text-white rounded-full text-xs hover:opacity-90"
+                  ><a href="#">Tech</a></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Article Card -->
+        <div class="max-w-md mx-auto mt-10">
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="article.html">
+              <img
+                src="images/image6.png"
+                alt="Article Image"
+                class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
+              />
+            </a>
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-2">
+                <a href="article.html"> Capturing Life's Moments with Canon Excellence</a>
+              </h2>
+              <p class="text-gray-600 text-sm mb-4">January 15, 2024</p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-2 py-1 bg-blue-500 text-white rounded-full text-xs hover:opacity-90"
+                  ><a href="">Cameras</a></span
+                >
+                <span
+                  class="px-2 py-1 bg-purple-500 text-white rounded-full text-xs hover:opacity-90"
+                  ><a href="#">Gadgets</a></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Article Card -->
+        <div class="max-w-md mx-auto mt-10">
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="article.html">
+              <img
+                src="images/image7.png"
+                alt="Article Image"
+                class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
+              />
+            </a>
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-2">
+                <a href="article.html">
+                  Unleash Creativity With These Cutting-Edge Tablets</a
+                >
+              </h2>
+              <p class="text-gray-600 text-sm mb-4">January 14, 2024</p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-2 py-1 bg-blue-500 text-white rounded-full text-xs hover:opacity-90"
+                  ><a href="">Gadgets</a></span
+                >
+                <span
+                  class="px-2 py-1 bg-purple-500 text-white rounded-full text-xs hover:opacity-90"
+                  ><a href="#">Tablets</a></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Pagination -->
+        <div class="flex justify-between mt-10">
+          <a href="#" class="inline-block bg-indigo-100 px-3 py-2 hover:bg-indigo-600 hover:text-white rounded-lg">
+            Previous
+          </a>
+          <a href="#"
+           class="inline-block bg-indigo-100 px-3 py-2 hover:bg-indigo-600 hover:text-white rounded-lg">
+            Next
+          </a>
+        </div>
+
+      </section>
+
+    <footer class="bg-indigo-900 text-white">
+      <div class="container mx-auto mt-10 max-w-screen-xl px-8">
+        <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">About</h3>
+            <p class="text-white text-sm">
+              TechPeople is a blog for tech enthusiasts. We publish articles,
+              stories and tutorials about the latest technology trends and
+              advancements.
+            </p>
+          </div>
+          <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">Categories</h3>
+            <ul class="text-white text-sm">
+              <li class="mb-2">
+                <a href="#">Tech</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Programming</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Gadgets</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Hardware</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Software</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">VR</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Smartphones</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Cameras</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Drones</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">Contact</h3>
+            <ul class="text-white text-sm">
+              <li class="mb-2">
+                <a href="#">Email</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Twitter</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Facebook</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Instagram</a>
+              </li>
+            </ul>
+    </footer>
+  </body>
+</html>
