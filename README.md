@@ -1,6 +1,6 @@
 # Astro TechPeople Blog
 
-A tech blog built with Astro collections, Makdown & TypeScript.
+A tech blog built with Astro collections, Markdown & TypeScript. You can view the live demo [here](https://astro-blog-flame.vercel.app/)
 
 <img src="/public/images/screen.png" />
 
