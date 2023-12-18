@@ -4,8 +4,6 @@ A tech blog built with Astro collections, Markdown & TypeScript. You can view th
 
 <img src="/public/images/screen.png" />
 
-This project is from the [Astro Quick Start Course](https://traversymedia.com/astro-quick-start)
-
 The HTML files are available in the `blog-theme` folder. There is no CSS as we use all Tailwind classes.
 
 ## Usage
